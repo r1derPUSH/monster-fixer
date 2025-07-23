@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 96.7vh;
+  background: linear-gradient(135deg, #1b1b2f, #162447, #1f4068);
+  background-size: 400% 400%;
+  animation: gradientFlow 15s ease infinite;
+  font-family: 'Press Start 2P', cursive;
+  background: radial-gradient(circle at 30% 30%, #ffe7ba, #ffccaa, #ffbb99);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Comic Sans MS', 'Fredoka', sans-serif;
+  color: #2c2c2c;
+}
+
+background::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background-image: radial-gradient(circle at 20% 20%, #fff7b2 1%, transparent 40%),
+                    radial-gradient(circle at 80% 30%, #fff7b2 1%, transparent 40%),
+                    radial-gradient(circle at 50% 80%, #fff7b2 1%, transparent 40%);
+  background-size: 200px 200px;
+  animation: floatStars 20s linear infinite;
+  z-index: 0;
+  opacity: 0.3;
+}
+
+@keyframes floatStars {
+  0% { transform: rotate(0deg) scale(1); }
+  100% { transform: rotate(360deg) scale(1.2); }
+}
+
+/* Typewriter h1 */
+
+.typewriter {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.typewriter h1 {
+  font-size: 1.7rem;
+  width: 59ch;
+  overflow: hidden;             /* ховає текст, що не влізає */
+  white-space: nowrap;  
+  margin: 0 auto;
+  letter-spacing: 2px;
+  animation: typing 4s steps(40, end), blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+/* container styles */
+
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: 10;
+    align-items: center;
+}
+
+/* battlefield styles */
+
+.battleField {
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    margin-right: 350px;
+    background: linear-gradient(to top, #88c070 0%, #b4e197 50%, #a3d3f5 100%);
+}
+
+.battleField div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 13px;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.battleField div > div:hover {
+  cursor: pointer;
+}
+
+.square {
+  width: 160px;
+  height: 160px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+
+/* menu-bar styles */
+
+.score {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.menu {
+    margin-right: 30px;
+}
+
+.start-button {
+  border: 2px solid hsl(120, 62%, 21%);
+  background-color: hsl(120, 62%, 31%);
+  width: 90px;
+  height: 45px;
+  border-radius: 15px;
+  box-shadow:
+  inset 0 4px 6px rgba(0, 0, 0, 0.4), 
+  inset 0 -2px 2px rgba(255, 255, 255, 0.1);
+  color: white;
+  font-weight: bold;
+  font-family: "Press Start 2P", sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); 
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1.15rem;
+}
+
+.start-button:active {
+    transform: scale(0.97);
+    box-shadow:
+    inset 0 2px 4px rgba(0, 0, 0, 0.6),
+    inset 0 -1px 1px rgba(255, 255, 255, 0.05);
+}
+
+.stop-button {
+  border: 2px solid hsl(0, 34%, 38%);
+  background-color: hsl(7, 100%, 46%);
+  width: 90px;
+  height: 45px;
+  border-radius: 15px;
+  box-shadow:
+    inset 0 4px 6px rgba(0, 0, 0, 0.4),    
+    inset 0 -2px 2px rgba(255, 255, 255, 0.1), 
+    0 2px 4px rgba(0, 0, 0, 0.3);     
+  color: white;
+  font-weight: bold;
+  font-family: "Press Start 2P", sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); 
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1.15rem;
+}
+
+
+.stop-button:active {
+  transform: scale(0.97);
+  box-shadow:
+    inset 0 2px 4px rgba(0, 0, 0, 0.6),
+    inset 0 -1px 1px rgba(255, 255, 255, 0.05);
+}
+
+.reset-button {
+  background-color: hsl(0, 0%, 15%);
+  color: white;
+  border: 2px solid hsl(0, 0%, 17%);
+  border-radius: 15px;
+  width: 90px;
+  height: 45px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow:
+    inset 0 3px 5px rgba(0, 0, 0, 0.4),
+    inset 0 -2px 2px rgba(255, 255, 255, 0.05),
+    0 3px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.15s ease-in-out;
+  font-size: 1.15rem;
+}
+
+.box-levelChoose button {
+  margin-right: 5px;
+}
+
+.easyDifficult {
+  background-color: hsl(97, 33%, 59%);
+  color: black;
+  border: 2px solid hsl(97, 33%, 49%);
+  border-radius: 10px;
+  width: 105px;
+  height: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.4), 
+  inset 0 -2px 2px rgba(255, 255, 255, 0.1);
+  transition: all 0.15s ease-in-out;
+}
+
+.mediumDifficult {
+  background-color: hsl(67, 93%, 47%);
+  color: black;
+  border: 2px solid hsl(97, 33%, 49%);
+  border-radius: 10px;
+  width: 105px;
+  height: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.4), 
+  inset 0 -2px 2px rgba(255, 255, 255, 0.1);
+  transition: all 0.15s ease-in-out;
+}
+
+.hardDifficult {
+  background-color: hsl(344, 85%, 29%);
+  color: black;
+  border: 2px solid hsl(344, 85%, 19%);
+  border-radius: 10px;
+  width: 105px;
+  height: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow:
+  inset 0 4px 6px rgba(0, 0, 0, 0.4),   
+  inset 0 -2px 2px rgba(255, 255, 255, 0.1), 
+  0 2px 4px rgba(0, 0, 0, 0.3); 
+  transition: all 0.15s ease-in-out;
+  font-size: 1rem;
+}
+
+/* header-bar styles */
+
+.header-bar {
+    margin: 30px;
+}
+
+.volume {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
