@@ -17,7 +17,7 @@
 
 ## 🚀 Try it Live
 
-👉 [Play MonsterFix in your browser →](https://your-deployed-link.com)
+👉 [Play MonsterFix in your browser →](https://r1derpush.github.io/monster-fixer/)
 
 ## 🧪 Tech Stack
 
