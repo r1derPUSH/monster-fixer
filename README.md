@@ -1,4 +1,4 @@
-## Monster vs Tiles
+## 🕹️ Monster vs Tiles
 A fun little cartoon-style browser game where the player must repair tiles while avoiding a crazy moving monster!
 
 ## 🔫 Try Yourself Live! 
