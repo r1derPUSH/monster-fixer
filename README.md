@@ -4,13 +4,12 @@
 
 ## 🎮 Gameplay
 
-<img width="1920" height="919" alt="image" src="https://github.com/user-attachments/assets/0a56110c-f844-44e8-85d3-de28e06f539d" />
-
-
 - A monster randomly appears on a 3x3 grid.
 - Broken tiles appear that you must quickly repair.
 - Use your reflexes and timing to fix them before the monster strikes again!
 - Bright, cartoonish visuals with smooth interactions.
+
+<img width="1920" height="919" alt="image" src="https://github.com/user-attachments/assets/0a56110c-f844-44e8-85d3-de28e06f539d" />
 
 ## ✨ Features
 
