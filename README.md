@@ -1,8 +1,11 @@
-# 🧰 MonsterFix
+# 🧰 Monster Fixer
 
 **MonsterFix** is a fast-paced, cartoon-style mini game where you race against time to fix broken tiles before the mischievous monster causes chaos!
 
 ## 🎮 Gameplay
+
+<img width="1920" height="919" alt="image" src="https://github.com/user-attachments/assets/0a56110c-f844-44e8-85d3-de28e06f539d" />
+
 
 - A monster randomly appears on a 3x3 grid.
 - Broken tiles appear that you must quickly repair.
@@ -17,7 +20,7 @@
 
 ## 🚀 Try it Live
 
-👉 [Play MonsterFix in your browser →](https://r1derpush.github.io/monster-fixer/)
+👉 [Play Monster Fixer in your browser →](https://r1derpush.github.io/monster-fixer/)
 
 ## 🧪 Tech Stack
 
