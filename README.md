@@ -16,6 +16,7 @@
 - ⚡ Fast-paced and addictive gameplay
 - 🛠️ Simple controls
 - 💻 Built with pure HTML, CSS, and JavaScript
+- 🎧 Music & Sound Effects included
 
 ## 🚀 Try it Live
 
