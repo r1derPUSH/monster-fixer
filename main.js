@@ -67,13 +67,13 @@ function playMusic () {
 
 function handleMute() {
     if (isMusicAllowed === false) {
-        volume.src = 'icons8-speaker-40.png';
+        volume.src = 'img/icons8-speaker-40.png';
         isMusicAllowed = true;
         offAudio = false;
         playMusic();
     }
     else {
-        volume.src = 'icons8-no-audio-40.png';
+        volume.src = 'img/icons8-no-audio-40.png';
         isMusicAllowed = false;
         audio.volume = 0;
     }
