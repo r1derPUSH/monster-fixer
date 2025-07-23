@@ -1,28 +1,26 @@
-## 🕹️ Monster vs Tiles
-A fun little cartoon-style browser game where the player must repair tiles while avoiding a crazy moving monster!
+# 🧰 MonsterFix
 
-## 🔫 Try Yourself Live! 
+**MonsterFix** is a fast-paced, cartoon-style mini game where you race against time to fix broken tiles before the mischievous monster causes chaos!
 
-## 🎮 Features
+## 🎮 Gameplay
 
-🎨 Soft pastel cartoon-style UI
+- A monster randomly appears on a 3x3 grid.
+- Broken tiles appear that you must quickly repair.
+- Use your reflexes and timing to fix them before the monster strikes again!
+- Bright, cartoonish visuals with smooth interactions.
 
-👾 Monster moves randomly on a 3x3 field
+## ✨ Features
 
-🛠️ Player repairs broken tiles with a wrench
+- ⚡ Fast-paced and addictive gameplay
+- 🛠️ Simple controls
+- 💻 Built with pure HTML, CSS, and JavaScript
 
-🕐 Time-based mechanics for quick reaction
+## 🚀 Try it Live
 
-## 🚀 Technologies Used
--HTML 
--CSS (transitions, animations)
--JavaScript (DOM manipulation, event handling, game logic)
+👉 [Play MonsterFix in your browser →](https://your-deployed-link.com)
 
-## 🛠️ How to Play
-The monster moves around randomly.
+## 🧪 Tech Stack
 
-Tiles get destroyed over time.
-
-Click tiles quickly to repair them before it's too late!
-
-Don't let all tiles be destroyed — or you lose.
+- HTML5
+- CSS3 (with cartoon theme & animations)
+- Vanilla JavaScript
