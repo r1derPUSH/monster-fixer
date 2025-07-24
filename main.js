@@ -95,7 +95,6 @@ function handleStop() {
 }
 
 function handleReset() {
-    handleStop();
     monster.style.opacity = '1';
     score = 0;
     loseCounter = 0;
@@ -120,6 +119,7 @@ function handleReset() {
     square8.style.opacity = '1';
     square9.style.backgroundColor = 'transparent';
     startButton.disabled = false;
+    handleStop();
 }
 
 function clickSquare1() {
