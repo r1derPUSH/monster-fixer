@@ -95,6 +95,7 @@ function handleStop() {
 }
 
 function handleReset() {
+    handleStop();
     monster.style.opacity = '1';
     score = 0;
     loseCounter = 0;
