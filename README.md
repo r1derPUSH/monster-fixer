@@ -1,6 +1,6 @@
 # 🧰 Monster Fixer
 
-**MonsterFix** is a fast-paced, cartoon-style mini game where you race against time to fix broken tiles before the mischievous monster causes chaos!
+**MonsterFix** is a fast-paced, cartoon-style mini-game where you race against time to fix broken tiles before the mischievous monster causes chaos!
 
 ## 🎮 Gameplay
 
