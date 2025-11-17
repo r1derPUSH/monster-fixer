@@ -24,6 +24,6 @@
 
 ## 🧪 Tech Stack
 
-- HTML5
-- CSS3 (with cartoon theme & animations)
+- HTML5 / CSS3 (with cartoon theme & animations)
 - Vanilla JavaScript
+
